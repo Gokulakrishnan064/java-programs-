@@ -5,7 +5,7 @@ public class PrimeNO {
 		Scanner sc=new Scanner(System.in);
 		int a= sc.nextInt();
 		for(int i=1;i<=a;i++) {
-			if(i%i==0 && i%1==0) {
+			if(a%i==0 && a%1==0) {
 				System.out.println("prime");
 			}
 			else {
